@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: Package installation
+    dnf:
+      name:
+        - telnet
+      state: latest
